@@ -1,0 +1,9 @@
+package: github.com/griff/thonix
+import:
+- package: github.com/kr/pty
+- package: github.com/gorilla/websocket
+  version: ^1.0.0
+- package: github.com/gorilla/mux
+  version: ^1.1.0
+- package: github.com/gorilla/context
+  version: ^1.1.0
