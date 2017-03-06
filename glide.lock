@@ -1,12 +1,65 @@
-hash: a302d0833c874afc98087ef26cbd78da2ed2520149b2974c2bd9a4499794d4fd
-updated: 2016-12-16T17:01:34.449809661+01:00
+hash: 1f262b20cd896f0ce52bcfaa6ff8298ccf98b4500fe53ffd5a51f8ddd3abf7b2
+updated: 2017-02-20T22:55:35.730349538+01:00
 imports:
+- name: github.com/docker/docker
+  version: 092cba3727bb9b4a2f0e922cd6c0f93ea270e363
+  subpackages:
+  - pkg/broadcaster
+  - pkg/ioutils
+  - pkg/longpath
+- name: github.com/elazarl/go-bindata-assetfs
+  version: 9a6736ed45b44bf3835afeebb3034b57ed329f3e
 - name: github.com/gorilla/context
   version: 1ea25387ff6f684839d82767c1733ff4d4d15d0a
 - name: github.com/gorilla/mux
-  version: 0eeaf8392f5b04950925b8a69fe70f110fa7cbfc
+  version: 392c28fe23e1c45ddba891b0320b3b5df220beea
 - name: github.com/gorilla/websocket
-  version: 1f512fc3f05332ba7117626cdfb4e07474e58e60
+  version: 3ab3a8b8831546bd18fd182c20687ca853b2bb13
 - name: github.com/kr/pty
   version: ce7fa45920dc37a92de8377972e52bc55ffa8d57
-testImports: []
+- name: github.com/neelance/graphql-go
+  version: 5b2978fcb1baf5d104a51d2638e2204abac0f5fd
+  subpackages:
+  - errors
+  - internal/common
+  - internal/exec
+  - internal/lexer
+  - internal/query
+  - internal/schema
+  - introspection
+  - relay
+- name: github.com/opentracing/opentracing-go
+  version: 6edb48674bd9467b8e91fda004f2bd7202d60ce4
+  subpackages:
+  - ext
+  - log
+- name: github.com/pborman/uuid
+  version: 1b00554d822231195d1babd97ff4a781231955c9
+- name: github.com/russolsen/transit
+  version: af303642df6a22c0e4d39b79daacdb88df12a2c7
+- name: github.com/shopspring/decimal
+  version: ea75adedfea8d902939c65b210dd1854f69dd1dd
+- name: github.com/urfave/cli
+  version: 347a9884a87374d000eec7e6445a34487c1f4a2b
+- name: golang.org/x/net
+  version: 236b8f043b920452504e263bc21d354427127473
+  subpackages:
+  - context
+- name: zombiezen.com/go/capnproto2
+  version: a094e8b41eb423fd4114149c55bbbc345aefd1a3
+- name: github.com/glycerine/rbtree
+  version: cd7940bb26b149ce2faf398e7c63fff01aa7b394
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+  - require
