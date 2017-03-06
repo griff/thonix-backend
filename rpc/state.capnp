@@ -1,7 +1,7 @@
 using Go = import "/go.capnp";
 @0xb545ff514b234a75;
 $Go.package("rpc");
-$Go.import("github.com/griff/thonix/rpc");
+$Go.import("github.com/griff/thonix-backend/rpc");
 
 enum Status {
   booting @0;

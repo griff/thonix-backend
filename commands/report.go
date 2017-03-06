@@ -3,7 +3,7 @@ package commands
 import (
 	"errors"
 	"fmt"
-	"github.com/griff/thonix/dmesg"
+	"github.com/griff/thonix-backend/dmesg"
 	"github.com/urfave/cli"
 )
 

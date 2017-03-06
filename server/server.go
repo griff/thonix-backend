@@ -2,7 +2,7 @@ package server;
 
 import (
   "sync"
-  "github.com/griff/thonix/rpc"
+  "github.com/griff/thonix-backend/rpc"
 )
 
 type Server struct {

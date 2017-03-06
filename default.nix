@@ -51,13 +51,16 @@ buildGo17StaticPackage rec {
   buildInputs = [capnproto capnpc-go];
 
   preBuild = ''
-    ls
-    echo $PWD
     cp ${frontend-bindata.out}/* "go/src/$goPackagePath/assets/"
     capnp compile -I${capnpc-go.out}/share/go/src/zombiezen.com/go/capnproto2/std -ogo go/src/$goPackagePath/rpc/*.capnp
   '';
 
-  goPackagePath = "github.com/griff/thonix";
+  postInstall = ''
+    rm $bin/bin/go-bindata-assetfs
+    mv $bin/bin/thonix-backend $bin/bin/thonix
+  '';
+
+  goPackagePath = "github.com/griff/thonix-backend";
 
   src = ./.;
 
@@ -81,7 +84,7 @@ buildGo17StaticPackage rec {
 
   # TODO: add metadata https://nixos.org/nixpkgs/manual/#sec-standard-meta-attributes
   meta = with stdenv.lib; {
-    homepage    = "https://github.com/griff/thonix";
+    homepage    = "https://github.com/griff/thonix-backend";
     description = "ThoNix UI daemon";
     maintainers = with maintainers; [ griff ];
     license     = licenses.agpl3 ;

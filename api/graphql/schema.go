@@ -1,7 +1,7 @@
 package graphql
 
 import (
-  "github.com/griff/thonix/server"
+  "github.com/griff/thonix-backend/server"
 	graphql "github.com/neelance/graphql-go"
 )
 

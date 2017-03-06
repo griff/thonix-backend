@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
-	"github.com/griff/thonix/shell"
+	"github.com/griff/thonix-backend/shell"
 	"io"
 	"log"
 	"net/http"

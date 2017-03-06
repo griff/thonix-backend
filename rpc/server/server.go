@@ -2,8 +2,8 @@ package server
 
 import (
   "github.com/docker/docker/pkg/listeners"
-  thonixrpc "github.com/griff/thonix/rpc"
-  "github.com/griff/thonix/server"
+  thonixrpc "github.com/griff/thonix-backend/rpc"
+  "github.com/griff/thonix-backend/server"
   "net"
   capnp "zombiezen.com/go/capnproto2"
   "zombiezen.com/go/capnproto2/rpc"

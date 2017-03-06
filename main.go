@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/griff/thonix/commands"
+	"github.com/griff/thonix-backend/commands"
 	"github.com/urfave/cli"
 	"os"
 )

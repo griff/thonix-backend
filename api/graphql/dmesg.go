@@ -2,7 +2,7 @@ package graphql
 
 import (
 	"fmt"
-	"github.com/griff/thonix/dmesg"
+	"github.com/griff/thonix-backend/dmesg"
 	graphql "github.com/neelance/graphql-go"
 	"strings"
 )

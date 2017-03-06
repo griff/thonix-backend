@@ -1,7 +1,7 @@
 package commands
 
 import (
-  "github.com/griff/thonix/rpc"
+  "github.com/griff/thonix-backend/rpc"
   "github.com/urfave/cli"
   "golang.org/x/net/context"
 )

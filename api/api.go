@@ -2,9 +2,9 @@ package api
 
 import (
   "fmt"
-  "github.com/griff/thonix/server"
+  "github.com/griff/thonix-backend/server"
   "github.com/gorilla/mux"
-  apiGraphql "github.com/griff/thonix/api/graphql"
+  apiGraphql "github.com/griff/thonix-backend/api/graphql"
   graphql "github.com/neelance/graphql-go"
   "github.com/neelance/graphql-go/relay"
   "net/http"

@@ -2,10 +2,10 @@ package commands
 
 import (
 	"fmt"
-	"github.com/griff/thonix/api"
-	"github.com/griff/thonix/assets"
-	"github.com/griff/thonix/server"
-	rpcserver "github.com/griff/thonix/rpc/server"
+	"github.com/griff/thonix-backend/api"
+	"github.com/griff/thonix-backend/assets"
+	"github.com/griff/thonix-backend/server"
+	rpcserver "github.com/griff/thonix-backend/rpc/server"
 	"github.com/urfave/cli"
 	"log"
 	"os"

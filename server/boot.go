@@ -1,7 +1,7 @@
 package server
 
 import (
-  "github.com/griff/thonix/dmesg"
+  "github.com/griff/thonix-backend/dmesg"
   "log"
   "regexp"
   "strings"
